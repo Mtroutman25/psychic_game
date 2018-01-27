@@ -25,11 +25,13 @@ document.onkeyup = function(event) {
 		if (userGuess === compGuess) {
 		
 		wins++;
+		newGame()
 		}
 
 		else if (guessRem === 0) {
 		
 		losses++;
+		newGame()
 		}
 
 
